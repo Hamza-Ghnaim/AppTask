@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>feed</title>
+  </head>
+  <body>
+    <div class="enclosing">
+      <div class="container">
+        <h1 class="title">Discover</h1>
+        <p class="paragraph">
+          <strong>WHAT'S NEW TODAY</strong>
+        </p>
+      </div>
+      <div class="createPost_container">
+        <div class="createPost_content">
+          <textarea
+            name="new-post"
+            id="new-post"
+            placeholder="insert your thoughts here...."
+          ></textarea>
+          <div class="buttons">
+            <button type="button" id="upload_post" onclick="uploadPost()">
+              Post
+            </button>
+            <button type="button" id="cancel_post" onclick="cancelPost()">
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="posts_container"></div>
+    </div>
+    <div class="create_post_btn_container">
+      <hr />
+      <button class="create_post_btn" type="button" onclick="createPost()">
+        +
+      </button>
+    </div>
+    <script src="functionality2.js"></script>
+  </body>
+</html>

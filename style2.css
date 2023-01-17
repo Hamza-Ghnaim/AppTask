@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.enclosing {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.container {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title {
+  width: 100%;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+.paragraph {
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.posts_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.posts_div img {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
+.comment-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.comment-holder img {
+  width: 15px;
+  height: 15px;
+}
+h3 {
+  margin: 0;
+}
+
+h5 {
+  margin: 0;
+}
+.userINFO {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.commenterINFO {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.userNAMES {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.commentorNAMES {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.username {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.post {
+  height: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  color: #000000;
+}
+
+.comment {
+  border-style: none;
+  margin-bottom: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+hr {
+  width: 100%;
+}
+
+.viewallCOMMENTS {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.create_post_btn {
+  width: 80px;
+  height: 34px;
+  background: linear-gradient(202.17deg, #ff00d6 8.58%, #ff4d00 91.42%);
+  border-radius: 20px;
+  border-style: none;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 25px;
+  right: 50%;
+}
+.create_post_btn_container {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+}
+.createPost_container {
+  display: none;
+  z-index: 1;
+  width: 500px;
+  height: 100%;
+  top: 0;
+}
+.createPost_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.createPost_content textarea {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 10px 15px #000;
+}
+
+.createPost_content button {
+  width: 70px;
+  height: 30px;
+  background: linear-gradient(202.17deg, #ff00d6 8.58%, #ff4d00 91.42%);
+  border-radius: 20px;
+  border-style: none;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 15px;
+  right: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.commenterName {
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.addedCOMMENT {
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+}
